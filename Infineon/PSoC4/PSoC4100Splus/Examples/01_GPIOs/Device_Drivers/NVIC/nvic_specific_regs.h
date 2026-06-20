@@ -1,0 +1,29 @@
+/*
+ * nvic_specific_regs.h
+ *
+ *  Created on: 1 Jan 2026
+ *      Author: GeeberuBasav
+ */
+
+#ifndef NVIC_SPECIFIC_REGS_H_
+#define NVIC_SPECIFIC_REGS_H_
+
+
+#define NVIC_BASE 0xE000E100UL
+
+#define NVIC_ISER 0xE000E100UL
+#define NVIC_ICER 0xE000E180UL
+
+#define NVIC_ISPR 0xE000E200UL
+#define NVIC_ICPR 0xE000E280UL
+
+#define NVIC_IPR0 0xE000E400UL
+#define NVIC_IPR1 0xE000E404UL
+#define NVIC_IPR2 0xE000E408UL
+#define NVIC_IPR3 0xE000E40cUL
+#define NVIC_IPR4 0xE000E410UL
+#define NVIC_IPR5 0xE000E414UL
+#define NVIC_IPR6 0xE000E418UL
+#define NVIC_IPR7 0xE000E41CUL
+
+#endif /* DEVICE_DRIVERS_NVIC_NVIC_SPECIFIC_REGS_H_ */
